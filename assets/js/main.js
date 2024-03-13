@@ -23,8 +23,8 @@ const bgHeader = () => {
 window.addEventListener("scroll", bgHeader);
 
 var typed = new Typed("#profession", {
-    strings: ["Desarollador web", "Ingeniero en Tics"],
-    typeSpeed: 100,
+    strings: ["Desarollador Full Stack", "Ingeniero en Tics"],
+    typeSpeed: 150,
     loop: true,
-
+    showCursor: false,
 });
