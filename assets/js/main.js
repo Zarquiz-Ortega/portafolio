@@ -23,8 +23,31 @@ const bgHeader = () => {
 window.addEventListener("scroll", bgHeader);
 
 var typed = new Typed("#profession", {
-    strings: ["Desarollador Full Stack", "Ingeniero en Tics"],
+    strings: ["Desarrollador Full Stack", "Ingeniero en Tics"],
     typeSpeed: 150,
     loop: true,
     showCursor: false,
+});
+
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
 });
