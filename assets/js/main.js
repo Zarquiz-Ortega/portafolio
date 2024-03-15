@@ -26,6 +26,7 @@ var typed = new Typed("#profession", {
     strings: ["Desarrollador Full Stack", "Ingeniero en Tics"],
     typeSpeed: 150,
     loop: true,
+    showCursor: false,
 });
 
 
