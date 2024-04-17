@@ -357,10 +357,22 @@ img {
   justify-self: center;
 }
 
-.about__skills-title{
+.about__title{
   font-size: var(--h3-font-size);
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.about__aptitudes{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__education-content{
+  align-items: center;
 }
 
 .about__skills-img{
@@ -373,7 +385,7 @@ img {
 }
 
 .about__skills-content{
-  grid-template-columns: repeat(5, max-content);
+  grid-template-columns: repeat(4, max-content);
   justify-content: center;
   align-items: center;
   gap: 2rem 1.5rem;
@@ -661,8 +673,22 @@ img {
   }
 
   .about__container{
-    grid-template-columns: 400px;
+    grid-template-columns: 650px;
     justify-content: center;
+  }
+
+  .about__aptitudes{
+    flex-direction: row;
+    align-items: self-start;
+    justify-content: space-around;
+  }
+
+  .about__educatin-certificado{
+    max-width: 350px;
+  }
+
+  .about__skills-img{
+    width: 40px;
   }
 
   .review__description{
@@ -761,6 +787,20 @@ img {
 
   .contact__page{
     padding-block: 1rem 4rem;
+  }
+
+  .about__container{
+    grid-template-columns: 800px;
+    justify-content: center;
+  }
+
+  .about__educatin-certificado{
+    max-width: 400px;
+  }
+
+  .about__skills-img{
+    width: 50px;
+    transition: transform .4s ;
   }
 
 }
