@@ -665,7 +665,7 @@ img {
 
 @media screen and (min-width:767px){
   .work__container{
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .review__head{
