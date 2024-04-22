@@ -402,8 +402,12 @@ img {
   padding-bottom: 3rem;
 }
 
+.work__titel-description{
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-.work__link{
+.work__img-hover{
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -411,26 +415,32 @@ img {
 }
 
 .work__img{
-  filter: grayscale(1);
+  filter: grayscale(1); 
   transition: filter .5s, transform .5s;
 }
 
 .work__icon{
   position: absolute;
-  top: 1.25rem;
-  right: 1.25rem;
-  font-size: 2rem;
-  color: var(--first-color-alt);
-  transition: transform .4s;
+  bottom: 0;
+  right: 40%;
+  font-size: 1.3rem;
+  padding: 0 15px;
+  background-color: var(--first-color-light);
+  border: 1px solid var(--first-color);
+  border-bottom: 0;
+  border-radius: 5px  5px  0 0 ;
+}
+.work__icon-item{
+  color: var(--first-color);
 }
 
-.work__link:hover .work__img{
+.work__img-hover:hover .work__img{
   transform: scale(1.1);
   filter: none;
 }
 
-.work__link:hover .work__icon{
-  transform: translate(.5rem, -.5rem) rotate(-30deg);
+.work__icon-item:hover{
+  color: var(--first-color-alt);
 }
 
 .work__title{
@@ -691,6 +701,11 @@ img {
     width: 40px;
   }
 
+  .work__icon{
+    right: 36%;
+    font-size: 1.4rem;
+  }
+
   .review__description{
     margin: 1.2rem 2rem ;
     font-size: 1.1rem;
@@ -801,6 +816,11 @@ img {
   .about__skills-img{
     width: 50px;
     transition: transform .4s ;
+  }
+
+  .work__icon{
+    right: 38%;
+    font-size: 1.6rem;
   }
 
 }
