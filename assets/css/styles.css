@@ -364,6 +364,7 @@ img {
 }
 
 .about__aptitudes{
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -470,13 +471,10 @@ img {
   height: 350px;
 }
 
-.swiper-slide{
-  border: 2px solid var(--first-color);
-  border-radius: 10px ;
-}
-
 .review__content{
   margin-top: .5rem;
+  border: 2px solid var(--first-color);
+  border-radius: 10px ;
 }
 
 .review__head{

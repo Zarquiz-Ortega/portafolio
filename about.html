@@ -14,6 +14,9 @@
    <!--=============== CSS ===============-->
    <link rel="stylesheet" href="assets/css/styles.css" />
 
+   <!--=============== SWIPER CSS  ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
    <title>Acerca de mi | &lt;Z/O&gt;</title>
 </head>
 
@@ -74,36 +77,61 @@
                      <p class="about__description">
                         Hola 👋🏻<br>
                         Soy recién egresado de la <b>Ingeniería en tecnologías de la
-                        información y comunicaciones</b> y <b>Desarrollador Full Stack</b>, con conocimientos en
+                           información y comunicaciones</b> y <b>Desarrollador Full Stack</b>, con conocimientos en
                         diseño web como <b>HTML, CSS, PHP y JS </b>y en base de datos con <b>phpMyAdmin y MySQL.</b>
-                        Estoy emocionado por seguir aprendiendo y embarcarme en nuevos proyectos. ¡Vamos a crear algo increíble juntos!"
+                        Estoy emocionado por seguir aprendiendo y embarcarme en nuevos proyectos. ¡Vamos a crear algo
+                        increíble juntos!"
                      </p>
                   </div>
                   <a href="contact.html" class="about__button button">📞 Contactame</a>
                </div>
 
-               <div class="about__aptitudes" >
+               <div class="about__aptitudes">
                   <div class="about__skills">
                      <h3 class="about__title">Mis Skills </h3>
-   
+
                      <div class="about__skills-content grid">
                         <img src="assets/img/about-html.svg" alt="img HTML" class="about__skills-img">
                         <img src="assets/img/about-css.svg" alt="img HTML" class="about__skills-img">
-                        <img src="assets/img/about-bootstrap-.svg" alt="img HTML" class="about__skills-img"> 
+                        <img src="assets/img/about-bootstrap-.svg" alt="img HTML" class="about__skills-img">
                         <img src="assets/img/about-github.svg" alt="img HTML" class="about__skills-img">
                         <img src="assets/img/about-git.svg" alt="img HTML" class="about__skills-img">
                         <img src="assets/img/about-javascript.svg" alt="img HTML" class="about__skills-img">
                         <img src="assets/img/about-react.svg" alt="img HTML" class="about__skills-img">
                         <img src="assets/img/about-php.svg" alt="img HTML" class="about__skills-img">
                         <img src="assets/img/about-phpmyadmin.svg" alt="img HTML" class="about__skills-img">
-                        <img src="assets/img/about-mysql.svg" alt="img HTML" class="about__skills-img"> 
+                        <img src="assets/img/about-mysql.svg" alt="img HTML" class="about__skills-img">
+                        <img src="assets/img/about-nodejs.svg" alt="img HTML" class="about__skills-img">
+                        <img src="assets/img/about-postgresql.svg" alt="img HTML" class="about__skills-img">
+                        <img src="assets/img/about-npmjs.svg" alt="img HTML" class="about__skills-img">
                      </div>
                   </div>
 
-                  <div class="about__education" >
+                  <div class="about__education">
                      <h3 class="about__title">Mis Estudios </h3>
-                     <div class="about__education-content">
-                        <img class="about__educatin-certificado" src="assets/img/certificate.png" alt="Certificado de fundamentos">
+                     <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                           <!-- Slides -->
+                           <div class="swiper-slide">
+                              <img src="assets/img/certificate.png" alt="certificado 1">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="assets/img/certificatefrontend.png" alt="certificado 1">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="assets/img/sqlopenbootcam.jpg" alt="certificado 1">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="assets/img/fundamentosopen.jpg" alt="certificado 1">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="assets/img/tecelectronica.jpg" alt="certificado 1">
+                           </div>
+                           <!--<div class="swiper-slide"></div>-->
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
                      </div>
                   </div>
                </div>
@@ -152,8 +180,12 @@
    <!--============ TYPED.JS =============-->
    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+   <!--=============== SWIPER CSS  ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
    <!--=============== JS ===============-->
    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
